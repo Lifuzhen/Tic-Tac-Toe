@@ -1,0 +1,71 @@
+body{
+    background: #F0F2F5;
+}
+main{
+    max-width: 32rem;
+    padding: 2rem;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    /*color: #f14b11;*/
+}
+#messageBox{
+    text-align: center;
+    color: #fff;
+    border: 2px solid #FF763B;
+    background: #FF763B;
+    border-radius: 10px;
+}
+
+.square{
+    width: 10em;
+    display: inline-block;
+    height: 75px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    line-height: 75px;
+    color: #FF763B;
+}
+.left{
+    border-right: 1px solid #FF763B;
+}
+.top{
+    border-bottom: 1px solid #FF763B;
+}
+.bottom{
+    border-top: 7px solid #FF763B;
+}
+.right {
+    border-left: 7px solid #FF763B;
+}
+.v-middle{
+    border-left: 7px solid #FF763B;
+    border-right: 1px solid #FF763B;
+}
+.h-middle{
+    border-top: 7px solid #FF763B;
+    border-bottom: 1px solid #FF763B;
+}
+.button{
+    width: 140px;
+    height: 36px;
+    border-radius: 4px;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    background: #fff;
+}
+#difficulty{
+    height: 36px;
+    width: 140px;
+    font-size: 20px;
+    padding-left: 20px;
+    border-radius: 4px;
+}
+.controls{
+    display: flex;
+    justify-content: space-between;
+}
